@@ -1,0 +1,644 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header-nav {
+    width: 100%;
+    height: 120px;
+    background-color: #E58246;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#botoes {
+    display: inline;
+    text-decoration: none;
+    font-size: 100%;
+    margin-left: 8px;
+    border: #794627 solid 3px;
+    padding: 10px 25px;
+    border-radius: 20px;
+    margin-right: 10px;
+    transition: background-color 2s, border-radius 2s;
+
+}
+
+#botoes:hover {
+    background-color: #cf7842;
+    border-radius: 100px;
+}
+
+a {
+    text-decoration: none;
+    color: #794627;
+}
+
+#logo-header {
+    width: 20%;
+}
+
+.footer {
+    display: grid;
+    grid-template-columns: 1fr 1.5fr 1fr;
+    background-color: #191919;
+    color: #fff;
+    width: 100%;
+    height: 336px;
+}
+
+.div-first {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.div-second {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#img-footer {
+    width: 20%;
+    height: 20%;
+    margin-top: 30px;
+}
+
+#paragrafo-footer2 {
+    margin: 20%;
+    text-align: justify;
+}
+
+#paragrafo-footer {
+    margin: 2% 20%;
+    text-align: justify;
+}
+
+#titulo-footer {
+    font-size: 24px;
+}
+
+hr {
+    display: none;
+}
+
+.first-content {
+    width: 100%;
+    background-color: black;
+    height: 400px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#imgcentral {
+    height: 100%;
+
+}
+
+#txtPrinContent {
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0% 20%;
+    font-size: 2em;
+    flex-direction: column;
+}
+
+#buttonPrinContent {
+    border: 3px solid;
+    border-color: #E58246;
+    color: #E58246;
+    font-size: 18px;
+    padding: 5px 35px;
+    border-radius: 50px;
+    margin-top: 10px;
+}
+
+.second-content {
+    display: flex;
+    width: 100%;
+    height: 478px;
+}
+
+.firstPartSecContent {
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #E58246;
+}
+
+.secondPartSecContent {
+    width: 50%;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+}
+
+#imgSecondContent {
+    height: 60%;
+}
+
+#txtSecondcontent {
+    color: #fff;
+    padding-bottom: 15px;
+    letter-spacing: 2px;
+    margin: 0px 20%;
+}
+
+#pSecondContent {
+    line-height: normal;
+    width: 60%;
+    color: #fff;
+    margin: 0px 20%;
+}
+
+strong {
+    color: #714124;
+}
+
+.three-content {
+    display: flex;
+    width: 100%;
+    height: 430px;
+    justify-content: space-between;
+    background-color: #000;
+}
+
+.firstPartThree {
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    align-items: left;
+    justify-content: center;
+    margin: 0% 5%;
+}
+
+#imgThreeContent {
+    height: 100%;
+}
+
+#txtThreecontent {
+    font-size: 2em;
+    width: 100%;
+}
+
+#pThreeContent {
+    font-size: 80%;
+    padding-top: 10px;
+}
+
+#buttonThreeContent {
+    color: #fff;
+    border-radius: 40px;
+    border: 2px solid;
+    border-color: #fff;
+    padding: 5px 15px;
+    width: 30%;
+    text-align: center;
+    margin-top: 20px;
+}
+
+#button2ThreeContent {
+    color: #cf7842;
+    border: 2px solid #cf7842;
+    padding: 5px 15px;
+    width: 30%;
+    text-align: center;
+    border-radius: 40px;
+    margin-top: 5px;
+}
+
+#strong1 {
+    color: #cf7842;
+}
+
+.firstContentDoar {
+    width: 100%;
+    height: 188px;
+    text-align: center;
+    background-color: #000000;
+    display: flex;
+    justify-content: center;
+    color: #fff;
+}
+
+#imgCausa {
+    width: 100%;
+}
+
+#doarTit1 {
+    font-size: 1.5em;
+    margin-bottom: 2px;
+}
+
+#paragrafodoar1 {
+    letter-spacing: 2px;
+    margin-bottom: 15px;
+}
+
+#buttonDoar {
+    color: #cf7842;
+    border: 2px solid;
+    font-size: 20px;
+    padding: 5px 35px;
+    border-radius: 40px;
+    transition: background-color 2s;
+}
+
+#buttonDoar:hover {
+    background-color: #b36739;
+}
+
+.secondContentDoar {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 500px;
+    background-color: #fff;
+    align-items: center;
+}
+
+.divcontentDoar2 {
+    background-color: #D9D9D9;
+    margin: 10px 4%;
+    width: 25%;
+    height: 50%;
+    text-align: left;
+    padding: 10px 5px;
+    border-radius: 10px;
+    transition: background-color 2s;
+}
+
+.divcontentDoar2:hover {
+    background-color: #cecece;
+}
+
+.img-icone {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #C4C4C4;
+    height: 50%;
+    width: 90%;
+    margin: 0px 5%;
+    border-radius: 20px;
+}
+
+.img-icone1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #E58246;
+    height: 50%;
+    width: 90%;
+    margin: 0px 5%;
+    border-radius: 20px;
+}
+
+#Icone {
+    width: 60%;
+}
+
+#titulo-card {
+    font-size: 120%;
+    text-align: left;
+    margin: 12px 5%;
+}
+
+#descricao-card {
+    margin: 12px 5%;
+    color: #696969;
+}
+
+.divisao {
+    width: 100%;
+    background-color: #cacaca;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    color: #3f3f3f;
+}
+
+#ImgPet {
+    width: 80%;
+    margin: 5px 10%;
+}
+
+.first-ContentLogin {
+    width: 100%;
+    height: 600px;
+    background-color: #000;
+    background-image: url(dogBackground.png);
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-login {
+    text-align: center;
+    width: 30%;
+    height: 90%;
+    background-color: #111111;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+#titLogin {
+    margin-bottom: 20px;
+    font-size: 2em;
+    color: #E58246;
+}
+
+.card-login input {
+    width: 70%;
+    margin: 10px 0px;
+    height: 12%;
+    padding: 5px 15px;
+    border-radius: 50px;
+    background-color: #d9d9d994;
+    color: #fff;
+    outline: none;
+    border: none;
+}
+
+.card-login input::placeholder {
+    color: #191919;
+}
+
+.card-login input:hover{
+    background-color: #adadad94;
+}
+
+#esqSenha {
+    color: #fff;
+    text-decoration: underline;
+    font-size: 12px;
+    margin-left: 100px;
+}
+
+#Entrar {
+    font-size: 16px;
+    height: 10%;
+    width: 30%;
+    background-color: #E58246;
+    color: #663517;
+    margin: 20px 0px;
+    transition: background-color 2s;
+}
+
+#Entrar:hover{
+    background-color: #c06d39;
+}
+
+#NovoSenha {
+    color: #fff;
+    text-decoration: underline;
+    margin-top: 10px;
+}
+
+#logoCad {
+    width: 70%;
+}
+
+#iconVoltar {
+    float: left;
+    width: 10%;
+    margin-left: 20px;
+}
+
+/* media quarry (780px) abaixo*/
+
+@media(max-width: 780px) {
+
+    #botoes {
+        margin-left: 5px;
+        margin-right: 5px;
+        padding: 5px 15px;
+        font-size: 1em;
+    }
+
+    #logo-header {
+        width: 30%;
+
+    }
+
+    .footer {
+        display: block;
+        height: 600px;
+        padding-top: 10%;
+    }
+
+    .div-second {
+        margin-top: 5%;
+    }
+
+    #img-footer {
+        width: 10%;
+        height: 10%;
+    }
+
+    #paragrafo-footer {
+        text-align: center;
+    }
+
+    #titulo-footer {
+        font-size: 24px;
+    }
+
+    hr {
+        display: block;
+    }
+
+    #imgcentral {
+        display: none;
+    }
+
+    .first-content {
+        width: 100%;
+        background-color: black;
+        height: 437px;
+        display: flex;
+        justify-content: center;
+    }
+
+    #txtPrinContent {
+        margin-left: 0%;
+        margin: 0% 15%;
+    }
+
+    .second-content {
+        display: block;
+        width: 100%;
+        height: 678px;
+    }
+
+    .firstPartSecContent {
+        width: 100%;
+        height: 50%;
+    }
+
+    .secondPartSecContent {
+        width: 100%;
+        height: 50%;
+        background-color: #fff;
+    }
+
+    #imgSecondContent {
+        height: 70%;
+    }
+
+    #txtSecondcontent {
+        margin: 0px 10%;
+        font-size: 100%;
+    }
+
+    #pSecondContent {
+        width: 70%;
+        color: #fff;
+        margin: 0px 10%;
+    }
+
+    .three-content {
+        display: flex;
+        width: 100%;
+        height: 430px;
+        justify-content: center;
+        background-color: #000;
+    }
+
+    #imgThreeContent {
+        display: none;
+    }
+
+    #pThreeContent {
+        width: 90%;
+    }
+
+    .firstContentDoar {
+        width: 100%;
+        height: 158px;
+        text-align: center;
+        background-color: #000000;
+        display: flex;
+        padding-top: 15px;
+        justify-content: center;
+        color: #fff;
+    }
+
+    .secondContentDoar {
+        display: block;
+        height: 900px;
+        padding-top: 15px;
+    }
+
+    .divcontentDoar2 {
+        margin: 0px 20%;
+        margin-bottom: 25px;
+        width: 60%;
+        height: 20%;
+    }
+
+    #Icone {
+        width: 20%;
+    }
+
+    #imgPet {
+        width: 40%;
+        margin: 2px 30%;
+    }
+
+    .first-ContentLogin {
+        background-image: none;
+        height: 790px;
+        background-color: #000;
+    }
+
+    .card-login {
+        width: 100%;
+        height: 90%;
+        background: none;
+    }
+
+    #titLogin {
+        margin-bottom: 20px;
+        font-size: 2.5em;
+        color: #E58246;
+    }
+
+    .card-login input {
+        width: 80%;
+        margin: 20px 5%;
+        height: 14%;
+        padding: 5px 15px;
+    }
+
+    .card-login input::placeholder {
+        color: #191919;
+    }
+
+    #Entrar {
+        font-size: 20px;
+        width: 40%;
+        background-color: #E58246;
+        margin: 20px 10px;
+    }
+
+
+    #logoCad {
+        width: 80%;
+    }
+
+    #iconVoltar {
+        float: left;
+        width: 10%;
+        margin-left: 20px;
+    }
+
+
+}
+
+/* media quarry (400px) abaixo*/
+
+@media(max-width: 600px) {
+    .header-nav {
+        display: flex;
+        flex-direction: column;
+        height: 200px;
+    }
+
+    .links {
+        display: block;
+    }
+
+    #logo-header {
+        width: 50%;
+    }
+
+    hr {
+        display: none;
+    }
+
+    #botoes {
+        display: block;
+        font-size: 20px;
+        text-align: center;
+        margin-top: 3px;
+        padding: 5px 50px;
+    }
+}
